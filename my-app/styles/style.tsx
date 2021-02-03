@@ -1,9 +1,8 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Image from  '../Images/background.png' ;
 
-
-const Display=styled.p`
-    display: inline;
+export const Header=styled.image`
+    background-image: url(${Image}); 
 
 `
 
-export default Display
