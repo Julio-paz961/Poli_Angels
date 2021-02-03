@@ -1,26 +1,28 @@
-import Image from 'next/image'
+import {HeroStyle,Subtitle,Space} from './_Hero-style'
 
-const Menu = () =>{
+const Hero = () =>{
     return (
-        <header className='row'>
-            <div className='col-xs-2'>
-                <Image 
-                    src='/logo.png'
-                    alt='logo'
-                    width={50}
-                    height={50}
-                />
+        <Space className='row'>
+            <div className='col-xs-8'>
+                <HeroStyle color='#0C2634'>
+                    Investimos em
+                </HeroStyle>
+                <HeroStyle color='#1DBBFF'>
+                    startups
+                </HeroStyle>
             </div>
-            <div className='col-xs-2'>
-                <ul>
-                    <li>
-                        <a></a>
-                    </li>
-                </ul>
+            <div className='col-xs-8'>
+                <Subtitle>
+                    Fomentamos o empreendedorismo brasileiro através do &nbsp;
+                    <Subtitle color='#1DBBFF'>
+                        investimento anjo.
+                    </Subtitle >
+                </Subtitle>
+
             </div>
-        </header>
+        </Space>
     );
 
 }
 
-export default Menu
+export default Hero
