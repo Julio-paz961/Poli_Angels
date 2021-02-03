@@ -14,10 +14,10 @@ const Menu = () =>{
                 />  
             </div>
             <div className='col-xs-10 end-xs'>
-                <Nav href='https://poliangels.com.br/eventos'><span>Eventos</span></Nav>
-                <Nav href='https://poliangels.com.br/equipe'><span>Equipe</span></Nav>
-                <Nav href='https://poliangels.com.br/blog'><span>Blog</span></Nav>
-                <Nav href='https://poliangels.com.br/conta/login'><span>Login</span></Nav>
+                <Nav href='https://poliangels.com.br/eventos'>Eventos</Nav>
+                <Nav href='https://poliangels.com.br/equipe'>Equipe</Nav>
+                <Nav href='https://poliangels.com.br/blog'>Blog</Nav>
+                <Nav href='https://poliangels.com.br/conta/login'>Login</Nav>
             </div>
         </Align>
     );
