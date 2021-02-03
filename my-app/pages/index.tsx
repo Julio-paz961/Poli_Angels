@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Menu from '../components/Menu/_Menu';
 import Hero from '../components/Hero/_Hero';
-import {Header} from '../styles/style';
 
 
 export default function Home() {
@@ -12,10 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
-        <Header>
+        <header className="backgroundHero">
           <Menu/>
           <Hero/>
-        </Header>
+        </header>
         <main>
         </main>
         <footer>

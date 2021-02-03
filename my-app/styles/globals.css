@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Jost&display=swap');
 
 
 html,
@@ -7,6 +8,8 @@ body {
   margin: 0;
   font-family:'Jost',sans-serif ;
   font-weight: 400;
+  color: rgb(85, 85, 85);
+  font-size: 19.8px;
 }
 
 a {
@@ -16,4 +19,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.backgroundHero{
+  background-image: url(../public/background.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+  padding:0px 91px;
 }
