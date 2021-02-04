@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Menu from '../components/Menu/_Menu';
 import Hero from '../components/Hero/_Hero';
+import SectionOne from '../components/Section-one/_Section-one'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           <Hero/>
         </header>
         <main>
+          <SectionOne/>
         </main>
         <footer>
         </footer>

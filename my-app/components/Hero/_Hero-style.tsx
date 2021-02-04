@@ -4,7 +4,6 @@ export const Space=styled.div`
     padding:40px;
 
 `
-
 export const HeroStyle=styled.h1`
     font-size:2.2em;
     margin:0;
