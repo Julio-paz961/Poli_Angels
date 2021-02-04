@@ -5,7 +5,7 @@ export const CardStyle=styled.div`
     box-shadow: 5px 10px 20px #cacaca;
     border-radius:30px;
     background-color:white;
-    width:310px;
+    width:100%;
     padding:10px 0;
 
     p,h1{
