@@ -3,7 +3,7 @@ import {Background, CardStyle} from './_Card-style'
 
 function Card(props) {
     return (
-        <div>
+        <>
             <CardStyle className='row middle-xs center-xs'>
                 <div className='col-xs-4'>
                     <Image
@@ -20,7 +20,7 @@ function Card(props) {
             </CardStyle>
             <Background>
             </Background>
-        </div>
+        </>
         
     )
   }
