@@ -7,7 +7,6 @@ const SectionOne = () =>{
         <header>
             <div className='row center-xs'>
                 <Title className='col-xs-12'>
-                    <div></div>
                     <h2>Sobre a Poli Angels</h2>
                     <p>Somos uma associação de investidores, empreendedores e empresários, fundada por ex-alunos da Poli-USP apaixonados por inovação e tecnologia. Conhecemos os desafios enfrentados pelas startups early-stage e nossa missão é suportá-las com mentoria, networking e investimento, para juntos transformarmos o país através do empreendedorismo.</p>
                 </Title>
