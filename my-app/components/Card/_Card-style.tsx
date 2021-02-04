@@ -26,6 +26,6 @@ export const Background=styled.div`
     bottom:120px;
     z-index:-2;
 `
-export const Text=styled.div`
+export const Margin=styled.div`
     margin:5px
 `
