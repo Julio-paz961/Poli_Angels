@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Menu from '../components/Menu/_Menu';
 import Hero from '../components/Hero/_Hero';
+import SectionOne from '../components/Section-one/_Section-one'
+import {Background} from '../styles/Index-style'
 
 
 export default function Home() {
@@ -11,11 +13,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
-        <header className="backgroundHero">
+        <Background> 
           <Menu/>
           <Hero/>
-        </header>
+        </Background>
         <main>
+          <SectionOne/>
         </main>
         <footer>
         </footer>

@@ -1,25 +1,29 @@
-import {HeroStyle,Subtitle,Space} from './_Hero-style'
+import {Subtitle,Space} from './_Hero-style'
+import {HeroText} from '../../styles/typography'
+import { Row ,Col} from 'react-styled-flexboxgrid';
 
 const Hero = () =>{
     return (
-        <div className='row'>
-            <Space className='col-xs-12'>
-                <HeroStyle color='#0C2634'>
-                    Investimos em
-                </HeroStyle>
-                <HeroStyle color='#1DBBFF'>
-                    startups
-                </HeroStyle>
+        <Row>
+            <Space>
+                <Col xs={12}>
+                    <HeroText color='#0C2634'>
+                        Investimos em
+                    </HeroText>
+                    <HeroText color='#1DBBFF'>
+                        startups
+                    </HeroText>
+                </Col>
+                <Col xs={12}>
+                    <Subtitle>
+                        Fomentamos o empreendedorismo brasileiro através do &nbsp;
+                        <Subtitle color='#1DBBFF'>
+                            investimento anjo.
+                        </Subtitle >
+                    </Subtitle>
+                </Col>
             </Space>
-            <Space className='col-xs-12'>
-                <Subtitle>
-                    Fomentamos o empreendedorismo brasileiro através do &nbsp;
-                    <Subtitle color='#1DBBFF'>
-                        investimento anjo.
-                    </Subtitle >
-                </Subtitle>
-            </Space>
-        </div>
+        </Row>
     );
 
 }
