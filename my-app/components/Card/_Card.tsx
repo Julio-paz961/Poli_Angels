@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import {Background, CardStyle} from './_Card-style'
+import {H1, P} from '../../styles/typography'
+
 
 function Card(props) {
     return (
@@ -9,13 +11,13 @@ function Card(props) {
                     <Image
                     src={props.src}
                     alt="Picture of the author"
-                    width={50}
-                    height={50}
+                    width={props.width}
+                    height={props.height}
                     />
                 </div>
                 <div className='col-xs-8'>
-                    <h1>{props.number}</h1>
-                    <p>{props.text}</p> 
+                    <H1 color='#0C2634'>{props.number}</H1>
+                    <P>{props.text}</P> 
                 </div>
             </CardStyle>
             <Background>
