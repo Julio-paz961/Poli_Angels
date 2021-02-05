@@ -11,3 +11,6 @@ export const Nav=styled.a`
     }
 
 `
+export const Back=styled.div`
+    background-color:${props=>props.color}
+`

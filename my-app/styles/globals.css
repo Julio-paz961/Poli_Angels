@@ -20,10 +20,3 @@ a {
 * {
   box-sizing: border-box;
 }
-.backgroundHero{
-  background-image: url(../public/background.png);
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: auto;
-  padding:0px 91px;
-}

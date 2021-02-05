@@ -7,6 +7,7 @@ export const H1=styled.h1`
 
 `
 export const H2=styled.h2`
+    text-align:center;
     font-size:36px;
     color:${props => props.color};
 
