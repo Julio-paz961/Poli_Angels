@@ -1,4 +1,3 @@
-import Card from "./_Card";
 import styled from 'styled-components'
 
 export const CardStyle=styled.div`
@@ -7,15 +6,6 @@ export const CardStyle=styled.div`
     background-color:white;
     width:100%;
     padding:10px 0;
-
-    p,h1{
-        margin:0;
-        padding:0
-    }
-    h1{
-        color:#0C2634;
-    }
-
 `
 export const Background=styled.div`
     background-color:#1DBBFF;

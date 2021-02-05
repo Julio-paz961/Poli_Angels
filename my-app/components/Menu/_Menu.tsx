@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import {Nav,Align} from './_Menu-style'
 
-
 const Menu = () =>{
     return (
         <Align className='row middle-xs between-xs'>
